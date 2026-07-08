@@ -1,4 +1,4 @@
-//In tbhis program we are going to solve a problem Best Time to buy and and sell Stock in which i am finding the mazimum profit and the best buy and sell price.
+//In this program we are going to solve a problem Best Time to buy and and sell Stock in which i am finding the mazimum profit and the best buy and sell price.
 
 import java.util.*;
 public class BuyandSellstock {
