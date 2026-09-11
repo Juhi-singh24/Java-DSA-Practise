@@ -18,7 +18,7 @@ public class Reverse{
 
     }
 
-    System.out.println("Reverse of digit = " +reverse);
+    System.out.println("Reverse of number = " +reverse);
     sc.close();
   }
   
