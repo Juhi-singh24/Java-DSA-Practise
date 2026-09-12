@@ -23,8 +23,10 @@ public class Secondlargest{
       else if(digit < largest && digit > second_largest){
         second_largest = digit;
       }
-
+      
       num =  num / 10;
+
+      
     }
 
     System.out.println("Largest number = "+largest);
