@@ -10,9 +10,14 @@ public class Perfectnumber{
     int original = num;
     int sum =0;
 
-    for(int i=1; i<num ; i++){
+    for(int i=1; i * i <num ; i++){
       if(num % i == 0){
         sum = sum + i;
+        int div = num / i;
+
+        if(div != num && div != i){
+          sum = sum + div;
+        }
 
       }
 
