@@ -3,8 +3,8 @@ import java.util.HashMap;
 public class Prefix_Exact_Sum {
 
   public static void main(String[] args){
-    int[] arr = {1,-1,1,1};
-    int k =1;
+    int[] arr = {3,-2,4,-1,2,-3,5};
+    int k = 4;
     int n= arr.length;
     int[] prefix = new int[n+1];
     HashMap<Integer, Integer> map= new HashMap<>();
